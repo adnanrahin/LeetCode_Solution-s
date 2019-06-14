@@ -206,5 +206,6 @@ reverse_string_344\
 occurrences_after_bigram_1078\
 three_sum_closest_16\
 wildcard_matching_44\
-merge_intervals_56
+merge_intervals_56\
+insert_intervals_57
 
