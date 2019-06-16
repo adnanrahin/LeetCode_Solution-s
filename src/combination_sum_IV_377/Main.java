@@ -7,7 +7,7 @@ public class Main {
 		System.out.println(combinationSum4(new int[] { 1, 2, 3 }, 4));
 		System.out.println(combinationSum4(new int[] { 2, 1, 3 }, 35));
 		System.out.println(combinationSum4(new int[] { 2 }, 7));
-		System.out.println(combinationSum4(new int[] { 2, 3, 5 }, 7));
+		System.out.println(combinationSum4(new int[] { 1, 2, 5 }, 5));
 
 	}
 
