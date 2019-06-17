@@ -214,5 +214,6 @@ coin_change_322\
 combination_sum_III_216\
 combination_sum_IV_377\
 coin_change_2_518\
-increasing_triplet_subsequence_334
+increasing_triplet_subsequence_334\
+first_bad_version_278
 
