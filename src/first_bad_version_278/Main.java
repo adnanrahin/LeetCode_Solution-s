@@ -33,7 +33,6 @@ public class Main {
 		if (n >= 1702766719) {
 			return true;
 		}
-
 		return false;
 
 	}
