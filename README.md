@@ -217,5 +217,6 @@ coin_change_2_518\
 increasing_triplet_subsequence_334\
 first_bad_version_278\
 next_permutation_31\
-number_of_island_200
+number_of_island_200\
+max_area_of_island_695
 
