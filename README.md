@@ -226,5 +226,6 @@ pacific_atlantic_water_flow_417\
 max_consecutive_ones_485\
 coloring_a_boarder_1034\
 shortest_path_in_binary_matrix_1091\
-making_a_large_island_827
+making_a_large_island_827\
+first_missing_positive_41
 
