@@ -49,7 +49,7 @@ public class Main {
 				int sum = num2int + carry;
 
 				int mod = sum % 10;
-				
+
 				carry = sum / 10;
 
 				answer += Integer.toString(mod);
@@ -66,7 +66,7 @@ public class Main {
 				int sum = num1int + carry;
 
 				int mod = sum % 10;
-				
+
 				carry = sum / 10;
 
 				answer += Integer.toString(mod);
