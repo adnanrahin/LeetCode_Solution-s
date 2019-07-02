@@ -1,7 +1,5 @@
 package reverse_linked_list_206;
 
-import javax.xml.soap.Node;
-
 public class Main {
 
 	public static void main(String args[]) {
