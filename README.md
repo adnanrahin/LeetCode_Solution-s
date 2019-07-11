@@ -229,7 +229,8 @@ shortest_path_in_binary_matrix_1091\
 making_a_large_island_827\
 first_missing_positive_41\
 defanging_an_ip_address_1108\
-friend_circles_547
+friend_circles_547\
+power_of_two_231
 
 
 
