@@ -230,7 +230,9 @@ making_a_large_island_827\
 first_missing_positive_41\
 defanging_an_ip_address_1108\
 friend_circles_547\
-power_of_two_231
+power_of_two_231\
+power_of_three_326\
+longest_increasing_path_in_a_matrix_329
 
 
 
