@@ -232,7 +232,9 @@ defanging_an_ip_address_1108\
 friend_circles_547\
 power_of_two_231\
 power_of_three_326\
-longest_increasing_path_in_a_matrix_329
+longest_increasing_path_in_a_matrix_329\
+unique_binary_search_trees_96\
+linked_list_cycle_141
 
 
 
