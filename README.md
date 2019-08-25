@@ -239,4 +239,5 @@
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/maximum_level_sum_of_a_binary_tree_116">116 Maximum Level Sum Of A Binary Tree </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/longest_common_subsequce_1143">1143 Longest Common Subsequence </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/minimum_window_substring_76">76 Minimum Window Substring</a></li>
+	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/permutation_in_String_567">567 Permutation In String</a></li>
 </ul>
