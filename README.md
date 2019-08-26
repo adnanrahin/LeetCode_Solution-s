@@ -240,4 +240,5 @@
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/longest_common_subsequce_1143">1143 Longest Common Subsequence </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/minimum_window_substring_76">76 Minimum Window Substring</a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/permutation_in_String_567">567 Permutation In String</a></li>
+	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/valid_number_65">65 Valid Number</a></li>
 </ul>
