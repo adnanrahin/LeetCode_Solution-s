@@ -243,4 +243,5 @@
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/valid_number_65">65 Valid Number</a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/maximum_product_of_word_lengths_318">318 Maximum Product of Word Lengths</a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/binary_number_with_alternating_bits_693">693 Binary Number With Alternating Bits</a></li>
+	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/compare_strings_by_frequency_of_the_smallest_character_1170">1170 Compare Strings By Frequency of The smallest Character</a></li>
 </ul>
