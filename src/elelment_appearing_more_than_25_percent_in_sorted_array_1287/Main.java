@@ -1,4 +1,4 @@
-package elelment_appearing_more_than_25_percent_in_sorted_array;
+package elelment_appearing_more_than_25_percent_in_sorted_array_1287;
 
 public class Main {
 
