@@ -248,5 +248,6 @@
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/subtract_the_product_and_sum_of_digits_of_an_intger_1281">1281 Subtract the Product and Sum of Digits of an Integer</a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/group_the_people_given_the_group_size_the_belong_to_1282">1282 Group the People Given the Group Size They Belong To</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/evaluate_reverse_polish_natation_150">150 Evaluate Reverse Polish Notation</a></li>	
-    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/elelment_appearing_more_than_25_percent_in_sorted_array_1287">1287 Element Appearing More Than 25% In Sorted Array</a></li>	
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/elelment_appearing_more_than_25_percent_in_sorted_array_1287">1287 Element Appearing More Than 25% In Sorted Array</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/soduku_solver_37">37 Sudoku Solver</a></li>
 </ul>
