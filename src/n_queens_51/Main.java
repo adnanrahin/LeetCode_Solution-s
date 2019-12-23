@@ -43,7 +43,7 @@ public class Main {
         boolean temp = false;
         for (int i = 0; i < queens; i++) {
 
-            if (isSafe(board, i, col)) {
+            if (isSafe(i, col, board)) {
                 board[i][col] = 1;
                 temp = backTrack(board, col + 1, queens) || temp;
                 board[i][col] = 0;
@@ -54,7 +54,7 @@ public class Main {
     }
 
 
-    public static boolean isSafe(int[][] board, int row, int col) {
+    public static boolean isSafe(int row, int col, int board[][]) {
 
         for (int i = 0; i < board.length; i++) {
             if (board[row][i] == 1)
