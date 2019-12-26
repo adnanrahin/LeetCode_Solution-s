@@ -255,5 +255,5 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/n_queens_II_52">52 N - Queens II</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/remove_duplicates_from_sorted_array_II_80">80 Remove Duplicates from Sorted Array II</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/word_break_139">139 Word Break</a></li>
-    word_break_139
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/remove_all_adjacent_duplicates_in_string_1047">1047 Remove all adjacent duplicates in String</a></li>
 </ul>
