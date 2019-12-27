@@ -257,4 +257,5 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/word_break_139">139 Word Break</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/remove_all_adjacent_duplicates_in_string_1047">1047 Remove all adjacent duplicates in String</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/remove_linked_list_elements_203">203 Remove Linked List Elements</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/duplicate_zeros_1089">1089 Duplicate Zeros</a></li>
 </ul>
