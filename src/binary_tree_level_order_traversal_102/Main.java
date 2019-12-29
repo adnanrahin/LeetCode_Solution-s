@@ -1,61 +1,100 @@
 package binary_tree_level_order_traversal_102;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class Main {
 
-	public static void main(String args[]) {
+    public static void main(String args[]) {
 
-	}
+    }
 
 }
 
-class Solution {
-	public class TreeNode {
-		int val;
-		TreeNode left;
-		TreeNode right;
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
 
-		TreeNode(int x) {
-			val = x;
-		}
-	}
+    TreeNode(int x) {
+        val = x;
+    }
+}
 
-	public List<List<Integer>> levelOrder(TreeNode root) {
+class DepthFirstSearch {
 
-		List<List<Integer>> ans = new LinkedList<>();
+    Map<Integer, List<Integer>> map;
 
-		Queue<TreeNode> q = new LinkedList<>();
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> solution = new ArrayList<>();
+        if (root == null) {
+            return solution;
+        }
 
-		List<Integer> list = new LinkedList<>();
+        map = new HashMap<>();
+        map.put(0, new ArrayList<>());
+        treeTraversal(root, 0);
 
-		if (root == null)
-			return ans;
+        for (Map.Entry<Integer, List<Integer>> itr : map.entrySet()) {
+            solution.add(itr.getValue());
+        }
 
-		q.add(root);
+        return solution;
+    }
 
-		while (!q.isEmpty()) {
+    public void treeTraversal(TreeNode root, int level) {
 
-			list = new LinkedList<Integer>();
+        if (root == null)
+            return;
 
-			int size = q.size();
+        treeTraversal(root.left, level + 1);
+        if (map.containsKey(level))
+            map.get(level).add(root.val);
+        else {
+            map.put(level, new ArrayList<>());
+            map.get(level).add(root.val);
+        }
+        treeTraversal(root.right, level + 1);
 
-			for (int i = 0; i < size; i++) {
-				TreeNode u = q.peek();
-				q.remove();
-				list.add(u.val);
-				if (u.left != null) {
-					q.add(u.left);
-				}
-				if (u.right != null) {
-					q.add(u.right);
-				}
-			}
+        return;
+    }
 
-			ans.add(list);
-		}
-		return ans;
-	}
+}
+
+class BreathFirstSearch {
+
+    public List<List<Integer>> levelOrder(TreeNode root) {
+
+        List<List<Integer>> ans = new LinkedList<>();
+
+        Queue<TreeNode> q = new LinkedList<>();
+
+        List<Integer> list = new LinkedList<>();
+
+        if (root == null)
+            return ans;
+
+        q.add(root);
+
+        while (!q.isEmpty()) {
+
+            list = new LinkedList<Integer>();
+
+            int size = q.size();
+
+            for (int i = 0; i < size; i++) {
+                TreeNode u = q.peek();
+                q.remove();
+                list.add(u.val);
+                if (u.left != null) {
+                    q.add(u.left);
+                }
+                if (u.right != null) {
+                    q.add(u.right);
+                }
+            }
+
+            ans.add(list);
+        }
+        return ans;
+    }
 }
