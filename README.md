@@ -263,5 +263,7 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/deepest_leaves_sum_1302">1302 Deepest Leaves Sum</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/convert_integer_to_the_sum_of_two_no_zero_integers_1317">1317. Convert Integer to the Sum of Two No-Zero Integers
 </a></li>
+<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/minimum_add_to_make_parentheses_valid_921">921. Minimum Add To Make Parenthesis valid
+</a></li>
     
 </ul>
