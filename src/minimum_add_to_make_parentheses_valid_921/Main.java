@@ -14,8 +14,6 @@ public class Main {
 
         Stack<Character> stack = new Stack<>();
 
-        int counter = 0;
-
         for (int i = 0; i < S.length(); i++) {
 
             if (S.charAt(i) == '(') {
