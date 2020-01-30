@@ -266,4 +266,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/minimum_add_to_make_parentheses_valid_921">921. Minimum Add To Make Parenthesis valid</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/range_sum_of_bst_938">938. Range Sum of BST</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/find_all_anagrams_in_a_string_438">438. Find All Anagrams in a string</a></li>
+     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/minimum_index_sum_of_two_lists_599">599. Minimum Index Sum of Lists</a></li>
+    minimum_index_sum_of_two_lists_599
 </ul>
