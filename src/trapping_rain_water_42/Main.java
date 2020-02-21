@@ -13,28 +13,28 @@ public class Main {
 
         int sum = 0;
 
-        if(height.length == 0)
+        if (height.length == 0)
             return sum;
 
-        int right[] = new int[height.length];
         int left[] = new int[height.length];
+        int right[] = new int[height.length];
 
         int max = height[0];
 
         for (int i = 0; i < height.length; i++) {
             max = Math.max(max, height[i]);
-            right[i] = max;
+            left[i] = max;
         }
 
         max = height[height.length - 1];
 
         for (int i = height.length - 1; i >= 0; i--) {
             max = Math.max(height[i], max);
-            left[i] = max;
+            right[i] = max;
         }
 
         for (int i = 0; i < height.length; i++) {
-            sum += Math.min(right[i], left[i]) - height[i];
+            sum += Math.min(left[i], right[i]) - height[i];
         }
 
         return sum;
