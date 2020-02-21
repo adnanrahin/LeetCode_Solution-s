@@ -18,7 +18,6 @@ public class Main {
         }
     }
 
-
     public TreeNode insertIntoBST(TreeNode root, int val) {
 
         if (root == null) {
