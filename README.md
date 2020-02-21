@@ -270,4 +270,5 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/trapping_rain_water_42">42. Trapping Rain Waters</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/search_in_binary_search_tree_700">700. Search In Binary Search Tree</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/insert_into_a_binary_search_tree_701">701. Insert Into a Binary Search Tree</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/increasing_order_search_tree_897">897. Increasing Order Search Tree</a></li>
 </ul>
