@@ -273,4 +273,5 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/increasing_order_search_tree_897">897. Increasing Order Search Tree</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/add_one_row_to_tree_623">623. Add One row to Tree</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/delete_leaves_with_a_given_value_1325">1325. Delete Leaves With a Given Value</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/subtree_of_another_tree_572">572. Subtree of Another Tree</a></li>
 </ul>
