@@ -272,4 +272,5 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/insert_into_a_binary_search_tree_701">701. Insert Into a Binary Search Tree</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/increasing_order_search_tree_897">897. Increasing Order Search Tree</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/add_one_row_to_tree_623">623. Add One row to Tree</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/delete_leaves_with_a_given_value_1325">1325. Delete Leaves With a Given Value</a></li>
 </ul>
