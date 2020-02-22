@@ -1,57 +1,72 @@
 package cousins_in_binary_tree_993;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class Main {
 
-	public static void main(String args[]) {
+    public static void main(String args[]) {
 
-	}
+    }
 
-	public static class TreeNode {
-		int val;
-		TreeNode left;
-		TreeNode right;
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
 
-		TreeNode(int x) {
-			val = x;
-		}
-	}
+        TreeNode(int x) {
+            val = x;
+        }
+    }
 
-	public static boolean isCousins(TreeNode root, int x, int y) {
+    public boolean isCousins(TreeNode root, int x, int y) {
 
-		if (root == null)
-			return false;
+        Queue<tuple> queue = new LinkedList<>();
 
-		int xlevel = getLevelOfNode(root, x, 0);
-		int ylevel = getLevelOfNode(root, y, 0);
+        queue.add(new tuple(null, root, 0));
 
-		System.out.println(xlevel + " " + ylevel);
+        tuple X = new tuple(null, null, 0);
+        tuple Y = new tuple(null, null, 0);
 
-		return xlevel == ylevel;
+        while (!queue.isEmpty()) {
 
-	}
+            int size = queue.size();
 
-	public static int findParents(TreeNode root, int key, int parent) {
-		
-		if(root == null)
-			return -1;
-		
-		return 0;
-	}
-	
-	public static int getLevelOfNode(TreeNode root, int key, int level) {
-		if (root == null)
-			return 0;
-		if (root.val == key)
-			return level;
+            for (int i = 0; i < size; i++) {
 
-		int result = getLevelOfNode(root.left, key, level + 1);
-		if (result != 0) {
+                tuple current = queue.poll();
 
-			return result;
-		}
-		result = getLevelOfNode(root.right, key, level + 1);
+                if (current.child.val == x)
+                    X = new tuple(current.parent, current.child, current.level);
+                else if (current.child.val == y)
+                    Y = new tuple(current.parent, current.child, current.level);
 
-		return result;
-	}
+                if (current.child.left != null)
+                    queue.add(new tuple(current.child, current.child.left, current.level + 1));
+
+                if (current.child.right != null)
+                    queue.add(new tuple(current.child, current.child.right, current.level + 1));
+            }
+
+            if (X.level == Y.level && X.parent != Y.parent)
+                return true;
+
+        }
+
+        return false;
+    }
+
+    public class tuple {
+        TreeNode parent;
+        TreeNode child;
+        int level;
+
+        public tuple(TreeNode parent, TreeNode child, int level) {
+            this.parent = parent;
+            this.child = child;
+            this.level = level;
+        }
+
+    }
 
 }
