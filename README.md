@@ -279,4 +279,5 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/binary_tree_maximum_path_sum_124">124. Binary Tree Maximum Path Sum</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/number_of_enclaves_1020">1020. Number of Enclaves</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/zigzag_conversion_6">6. ZigZag Conversion</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/greatest_common_divisor_of_string_1071">1071. Greatest Common Divisor of Strings</a></li>
 </ul>
