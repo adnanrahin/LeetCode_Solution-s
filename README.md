@@ -281,4 +281,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/zigzag_conversion_6">6. ZigZag Conversion</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/greatest_common_divisor_of_string_1071">1071. Greatest Common Divisor of Strings</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/rank_transform_of_an_array_1331">1331. Rank Transform of an Array</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/split_a_string_in_balanced_strings_1221">1221. Split a String in Balanced Strings</a></li>
+    
 </ul>
