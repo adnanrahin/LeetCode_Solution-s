@@ -287,5 +287,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/check_if_its_a_straight_line_1232">1232. Check If It Is a Straight Line</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/queens_that_can_attack_the_king_1222">1222. Queens That Can Attack the King</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/largest_rectangle_in_histogram_84">84. Largest Rectangle in Histogram</a></li>
-    
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/shuffle_an_array_384">384. Shuffle an Array</a></li>
+    shuffle_an_array_384
 </ul>
