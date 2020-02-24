@@ -284,5 +284,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/split_a_string_in_balanced_strings_1221">1221. Split a String in Balanced Strings</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/minimum_swaps_to_make_strings_equal_1247">1247. Minimum Swaps to Make Strings Equal</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/score_of_parentheses_856">856. Score of Parentheses</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/check_if_its_a_straight_line_1232">1232. Check If It Is a Straight Line</a></li>
     
 </ul>
