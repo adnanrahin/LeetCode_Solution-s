@@ -288,5 +288,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/queens_that_can_attack_the_king_1222">1222. Queens That Can Attack the King</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/largest_rectangle_in_histogram_84">84. Largest Rectangle in Histogram</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/shuffle_an_array_384">384. Shuffle an Array</a></li>
-    shuffle_an_array_384
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/palindrome_partitioning_131">131. Palindrome Partitioning</a></li>
+    
 </ul>
