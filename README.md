@@ -291,5 +291,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/palindrome_partitioning_131">131. Palindrome Partitioning</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/palindrome_partitioning_II_132">132. Palindrome Partitioning II</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/subarray_sum_equals_k_560">560. Subarray Sum Equals K</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/subarray_sums_divisible_by_K_974">974. Subarray Sums Divisible by K</a></li>
     
 </ul>
