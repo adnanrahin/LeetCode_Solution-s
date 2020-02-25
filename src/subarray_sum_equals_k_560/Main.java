@@ -1,5 +1,8 @@
 package subarray_sum_equals_k_560;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Main {
 
     public static void main(String args[]) {
@@ -11,19 +14,23 @@ public class Main {
 
     public static int subarraySum(int[] nums, int k) {
 
-        int sum = 0;
         int counter = 0;
+
+        Map<Integer, Integer> table = new HashMap<>();
+
+        table.put(0, 1);
+
+        int sum = 0;
 
         for (int i = 0; i < nums.length; i++) {
 
-            sum = 0;
+            sum += nums[i];
 
-            for (int j = i; j < nums.length; j++) {
-                sum += nums[j];
-                if (sum == k) {
-                    counter++;
-                }
-            }
+            if (table.containsKey(sum - k))
+                counter += table.get(sum - k);
+
+            table.put(sum, table.getOrDefault(sum, 0) + 1);
+
         }
 
         return counter;
