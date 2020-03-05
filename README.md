@@ -294,4 +294,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/subarray_sums_divisible_by_K_974">974. Subarray Sums Divisible by K</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/maximal_square_221">221. Maximal Square</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/maximal_rectangle_85">85. Maximal Rectangle</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/count_square_matrix_with_all_ones_1277">1277. Count Square Matrix With all ones</a></li>
+    
 </ul>
