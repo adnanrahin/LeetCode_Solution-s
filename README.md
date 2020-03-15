@@ -295,5 +295,7 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/maximal_square_221">221. Maximal Square</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/maximal_rectangle_85">85. Maximal Rectangle</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/count_square_matrix_with_all_ones_1277">1277. Count Square Matrix With all ones</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/lucky_numbers_in_a_matrix_1380">1380. Lucky Numbers in a Matrix</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/design_a_stack_with_increment_operation_1381">1381. Design a Stack With Increment Operation</a></li>  
     
 </ul>
