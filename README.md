@@ -299,5 +299,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/design_a_stack_with_increment_operation_1381">1381. Design a Stack With Increment Operation</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/backspace_string_compare_844">844. Backspace String Compare</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/contiguous_array_525">525. Contiguous Array</a></li>  
-    
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/convert_sorted_list_to_binary_search_tree_109">109. Convert Sorted List to Binary Search Tree</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/convert_binary_number_in_a_linked_list_to_integer_1290">1290. Convert Binary Number in a Linked List to Integer</a></li>
 </ul>
