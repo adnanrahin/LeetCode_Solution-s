@@ -27,16 +27,23 @@ public class Main {
 
     public void reorderList(ListNode head) {
 
-        ListNode temp = head;
-        ListNode cur = head.next;
+        if(head == null || head.next == null || head.next.next == null)return;
 
-        while (temp.next != null) {
-            temp = temp.next;
+        ListNode outer = head;
+
+        while(outer.next!=null && outer.next.next!=null){
+            ListNode temp = outer;
+
+            ListNode cur = outer.next;
+            while (temp.next.next != null) {
+                temp = temp.next;
+            }
+
+            outer.next = temp.next;
+            temp.next = null;
+            outer.next.next = cur;
+            outer = outer.next.next;
         }
-
-        temp.next = cur;
-        head.next = temp;
-
     }
 
 }
