@@ -305,4 +305,5 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/linked_list_in_binary_tree_1367">1367. Linked List in Binary Tree</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/reorder_list_143">143. Reorder List</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/intersection_of_two_linked_lists_160">160. Intersection of Two Linked Lists</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/k_Closest_points_to_origin_973">973. K Closest Points to Origin</a></li>
 </ul>
