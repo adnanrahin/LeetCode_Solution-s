@@ -300,11 +300,14 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/backspace_string_compare_844">844. Backspace String Compare</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/contiguous_array_525">525. Contiguous Array</a></li>  
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/convert_sorted_list_to_binary_search_tree_109">109. Convert Sorted List to Binary Search Tree</a></li>
-    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/convert_binary_number_in_a_linked_list_to_integer_1290">1290. Convert Binary Number in a Linked List to Integer</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/convert_binary_number_in_a_linked_list_to_integer_1290<">1290. Convert Binary Number in a Linked List to Integer</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/linked_list_components_817">817. Linked List Components</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/linked_list_in_binary_tree_1367">1367. Linked List in Binary Tree</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/reorder_list_143">143. Reorder List</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/intersection_of_two_linked_lists_160">160. Intersection of Two Linked Lists</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/k_Closest_points_to_origin_973">973. K Closest Points to Origin</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/game_of_life_289">289. Game of Life</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/find_the_town_judge_997">997. Find the Town Judge</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/word_ladder_127">127. Word Ladder</a></li>
 </ul>
+
