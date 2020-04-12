@@ -313,4 +313,5 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/implement_trie_208">208. Implement Trie (Prefix Tree)</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/add_and_search_word_data_structure_design_211">211. Add and Search Word - Data structure design</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/stream_of_characters_1032">1032. Stream of Characters</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/last_stone_weight_1046">1046. Last Stone Weight</a></li>
 </ul>
