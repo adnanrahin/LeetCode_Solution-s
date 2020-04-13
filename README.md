@@ -314,4 +314,8 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/add_and_search_word_data_structure_design_211">211. Add and Search Word - Data structure design</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/stream_of_characters_1032">1032. Stream of Characters</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/last_stone_weight_1046">1046. Last Stone Weight</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/minimum_absolute_difference_1200">1200 Minimum Absolute Difference</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/majority_element_II">229. Majority Element II</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/majority_element_169">169. Majority Element</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/critical_connections_in_a_network_1192">1192. Critical Connections in a Network</a></li>
 </ul>
