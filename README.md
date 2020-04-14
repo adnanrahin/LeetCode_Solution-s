@@ -318,4 +318,5 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/majority_element_II">229. Majority Element II</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/majority_element_169">169. Majority Element</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/critical_connections_in_a_network_1192">1192. Critical Connections in a Network</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/longest_happy_prefix_1392">1392. Longest Happy Prefix</a></li>
 </ul>
