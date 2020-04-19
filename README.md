@@ -319,4 +319,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/majority_element_169">169. Majority Element</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/critical_connections_in_a_network_1192">1192. Critical Connections in a Network</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/longest_happy_prefix_1392">1392. Longest Happy Prefix</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/reformat_the_string_1417">1417. Reformat The String</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/table_of_food_orders_in_a_restaurant_1418">1418. Display Table of Food Orders in a Restaurant</a></li>
 </ul>
