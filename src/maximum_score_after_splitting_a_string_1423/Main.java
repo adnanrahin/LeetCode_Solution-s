@@ -1,4 +1,4 @@
-package maximum_score_after_splitting_a_string;
+package maximum_score_after_splitting_a_string_1423;
 
 public class Main {
     public static void main(String args[]) {
