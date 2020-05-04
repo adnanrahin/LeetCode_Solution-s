@@ -321,5 +321,7 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/longest_happy_prefix_1392">1392. Longest Happy Prefix</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/reformat_the_string_1417">1417. Reformat The String</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/table_of_food_orders_in_a_restaurant_1418">1418. Display Table of Food Orders in a Restaurant</a></li>
-    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/maximum_score_after_splitting_a_string_1423">1422. Maximum Score After Splitting a String</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/destination_city_1436">1436. Destination City</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/check_if_all_ones_are_at_least_length_k_places_away_1437">1437. Check If All 1's Are at Least Length K Places Away</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/longest_continuoust_subarray_with_absolute_diff_less_than_or_equal_to_limit_1438">1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit</a></li>
 </ul>
