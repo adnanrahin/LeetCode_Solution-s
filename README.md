@@ -25,12 +25,12 @@
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/combination_sum_39">39 Combination Sum </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/combination_sum_II_40">40 Combination Sum II </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/combinations_77">77 Combinations </a></li>
-	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/combinration_sum_II_40">40 Combinration Sum II </a></li>
+	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/combinration_sum_II_40">40 Combination Sum II </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/container_with_most_water_11">11 Container With Most Water </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/contains_duplicate_217">217 Contains Duplicate </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/contains_duplicate_219">219 Contains Duplicate </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/contains_duplicate_220">220 Contains Duplicate </a></li>
-	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/conver_sorted_array_to_binary_search_tree_108">108 Conver Sorted Array To Binary Search Tree </a></li>
+	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/conver_sorted_array_to_binary_search_tree_108">108 Convert Sorted Array To Binary Search Tree </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/count_complete_tree_nodes_222">222 Count Complete Tree Nodes </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/count_of_smaller_numbers_after_self_315">315 Count Of Smaller Numbers After Self </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/count_primes_204">204 Count Primes </a></li>
@@ -105,7 +105,7 @@
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/minimum_absolute_difference_in_BST_530">530 Minimum Absolute Difference In BST </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/minimum_depth_binary_tree_111">111 Minimum Depth Binary Tree </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/minimum_distance_between_bast_nodes_783">783 Minimum Distance Between Bast Nodes </a></li>
-	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/minimum_moves_to_equal_arraye_elements_453">453 Minimum Moves To Equal Arraye Elements </a></li>
+	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/minimum_moves_to_equal_arraye_elements_453">453 Minimum Moves To Equal Arrays Elements </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/minimum_path_sum_64">64 Minimum Path Sum </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/minimum_size_subarray_sum_209">209 Minimum Size Subarray Sum </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/missing_numbers_268">268 Missing Numbers </a></li>
@@ -119,7 +119,7 @@
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/n_repeated_element_in_size_2n_array_961">961 N Repeated Element In Size 2n Array </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/network_delay_time_743">743 Network Delay Time </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/number_of_matching_subsequences_792">792 Number Of Matching Subsequences </a></li>
-	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/palindrom_linked_list_234">234 Palindrom Linked List </a></li>
+	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/palindrom_linked_list_234">234 Palindrome Linked List </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/palindrome_number_9">9 Palindrome Number </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/palindromic_substrings_647">647 Palindromic Substrings </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/pascals_triangle_118">118 Pascals Triangle </a></li>
@@ -132,7 +132,7 @@
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/permutations_II_47">47 Permutations II </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/plus_one_66">66 Plus One </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/possible_bipartition_890">890 Possible Bipartition </a></li>
-	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/premutations_46">46 Premutations </a></li>
+	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/premutations_46">46 Permutations </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/product_of_array_except_self_238">238 Product Of Array Except Self </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/ransom_note_383">383 Ransom Note </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/rectangle_area_223">223 Rectangle Area </a></li>
@@ -148,7 +148,7 @@
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/reveres_String_II_541">541 Reveres String II </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/reveres_integer_7">7 Reveres Integer </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/reveres_words_in_a_string_III_557">557 Reveres Words In A String III </a></li>
-	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/reverese_vowels_of_string_345">345 Reverese Vowels Of String </a></li>
+	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/reverese_vowels_of_string_345">345 Reveres Vowels Of String </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/reverse_linked_list_206">206 Reverse Linked List </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/reverse_only_letters_917">917 Reverse Only Letters </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/reverse_words_in_a_string_151">151 Reverse Words In A String </a></li>
@@ -165,7 +165,7 @@
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/shifting_letters_848">848 Shifting Letters </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/single_number_136">136 Single Number </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/single_number_II_137">137 Single Number II </a></li>
-	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/single_numer_III_260">260 Single Numer III </a></li>
+	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/single_numer_III_260">260 Single Number III </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/sliding_window_maximum_239">239 Sliding Window Maximum </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/smallest_string_starting_from_leaf_988">988 Smallest String Starting From Leaf </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/sort_array_by_parity_905">905 Sort Array By Parity </a></li>
@@ -181,7 +181,7 @@
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/sum_of_left_leaves_404">404 Sum Of Left Leaves </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/sum_of_root_to_leaf_binary_numbers_1022">1022 Sum Of Root To Leaf Binary Numbers </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/sum_root_to_leaf_numbers_129">129 Sum Root To Leaf Numbers </a></li>
-	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/susbets_II_90">90 Susbets II </a></li>
+	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/susbets_II_90">90 Subsets II </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/swap_nodes_in_pairs_24">24 Swap Nodes In Pairs </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/symmetric_tree_101">101 Symmetric Tree </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/three_sum_15">15 Three Sum </a></li>
@@ -194,7 +194,7 @@
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/uncommon_words_from_two_sentences_888">888 Uncommon Words From Two Sentences </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/unique_path_62">62 Unique Path </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/unique_path_II_63">63 Unique Path II </a></li>
-	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/univalued_binary_tree_965">965 Univalued Binary Tree </a></li>
+	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/univalued_binary_tree_965">965 Uni-valued Binary Tree </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/valid_parentheses_20">20 Valid Parentheses </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/valid_perfect_square_367">367 Valid Perfect Square </a></li>
 	<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/valid_sudoku_36">36 Valid Sudoku </a></li>
