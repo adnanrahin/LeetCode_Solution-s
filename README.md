@@ -329,4 +329,5 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/uncrossed_lines_1035">1035. Uncrossed Lines</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/kids_with_the_greatest_number_of_candies_1431">1431. Kids With the Greatest Number of Candies</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/rearrange_words_in_a_sentence_1451">1451. Rearrange Words in a Sentence</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/number_of_students_doing_homework_at_a_given_time_1450">1450. Number of Students Doing Homework at a Given Time</a></li>
 </ul>
