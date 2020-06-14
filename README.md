@@ -333,6 +333,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/check_if_a_word_as_a_prefix_of_any_word_in_a_sentence_1455">1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/prison_cells_after_n_days_957">957. Prison Cells After N Days</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/running_sum_of_array_1480">1480. Running Sum of 1d Array</a></li>
-    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/least_number_of_unique_integers_after_k_removals_1481">1481. Least Number of Unique Integers after K Removals
-</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/least_number_of_unique_integers_after_k_removals_1481">1481. Least Number of Unique Integers after K Removals</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/path_with_maximum_gold_1219">1219. Path with Maximum Gold</a></li>
 </ul>
