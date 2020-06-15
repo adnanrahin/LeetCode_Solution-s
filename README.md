@@ -335,4 +335,5 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/running_sum_of_array_1480">1480. Running Sum of 1d Array</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/least_number_of_unique_integers_after_k_removals_1481">1481. Least Number of Unique Integers after K Removals</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/path_with_maximum_gold_1219">1219. Path with Maximum Gold</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/flip_string_to_monotone_increasing_926">926. Flip String to Monotone Increasing</a></li>
 </ul>
