@@ -340,4 +340,5 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/the_k_weakest_rows_in_a_matrix_1337">1337. The K Weakest Rows in a Matrix</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/partition_list_86">86. Partition List</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/scramble_string_87">87. Scramble String</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/gray_code_89">89. Gray Code</a></li>
 </ul>
