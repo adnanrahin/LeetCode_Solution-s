@@ -343,4 +343,5 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/gray_code_89">89. Gray Code</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/reverse_linked_list_II">92. Reverse Linked List II</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/ugly_number_263">263. Ugly Number</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/flipping_an_image_832">832. Flipping an Image</a></li>
 </ul>
