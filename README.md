@@ -346,4 +346,5 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/flipping_an_image_832">832. Flipping an Image</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/xor_operation_in_an_array_1486">1486. XOR Operation in an Array</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/making_file_names_unique_1487">1487. Making File Names Unique</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/distinct_subsequences_115">115. Distinct Subsequences</a></li>
 </ul>
