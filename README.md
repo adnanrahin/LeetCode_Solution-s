@@ -344,4 +344,5 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/reverse_linked_list_II">92. Reverse Linked List II</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/ugly_number_263">263. Ugly Number</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/flipping_an_image_832">832. Flipping an Image</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/xor_operation_in_an_array_1486">1486. XOR Operation in an Array</a></li>
 </ul>
