@@ -348,4 +348,5 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/making_file_names_unique_1487">1487. Making File Names Unique</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/distinct_subsequences_115">115. Distinct Subsequences</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/minimum_ascii_delete_sum_for_two_strings_712">712. Minimum ASCII Delete Sum for Two Strings</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/k_diff_pairs_in_an_array_532">532. K-diff Pairs in an Array</a></li>
 </ul>
