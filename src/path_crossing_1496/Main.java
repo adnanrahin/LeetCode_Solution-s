@@ -31,8 +31,6 @@ public class Main {
             if(set.contains(x + "," + y)) return true;
         }
 
-        System.out.println(set);
-
         return false;
     }
 
