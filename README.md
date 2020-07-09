@@ -362,4 +362,5 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/path_crossing_1496">1496. Path Crossing</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/minimum_genetic_mutation_433">433. Minimum Genetic Mutation</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/corporate_flight_bookings_1109">1109. Corporate Flight Bookings</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/Minimum_remove_to_make_valid_parenthesis_1249">1249. Minimum Remove to Make Valid Parentheses</a></li>
 </ul>
