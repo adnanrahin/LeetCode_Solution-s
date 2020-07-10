@@ -365,4 +365,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/Minimum_remove_to_make_valid_parenthesis_1249">1249. Minimum Remove to Make Valid Parentheses</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/remove_invalid_parenthesis_301">301. Remove Invalid Parentheses</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/median_of_two_sorted_arrays_4">4. Median of Two Sorted Arrays</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/reverse_Nodes_in_k_group_25">25. Reverse Nodes in k-Group</a></li>
 </ul>
+
