@@ -368,5 +368,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/reverse_Nodes_in_k_group_25">25. Reverse Nodes in k-Group</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/unique_binary_search_trees_II_95">95. Unique Binary Search Trees II</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/add_binary_67">67. Add Binary</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/substring_with_concatenation_of_all_words_30">30. Substring with Concatenation of All Words</a></li>
 </ul>
 
