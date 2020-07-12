@@ -372,5 +372,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/interleaving_string_97">97. Interleaving String</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/find_minimum_in_rotated_sfoted_array_II_154">154. Find Minimum in Rotated Sorted Array II</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/number_of_substring_with_only_1s_1513">1513. Number of Substrings With Only 1s</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/path_with_maximum_probability_1514">1514. Path with Maximum Probability</a></li>
 </ul>
 
