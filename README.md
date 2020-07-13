@@ -375,5 +375,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/path_with_maximum_probability_1514">1514. Path with Maximum Probability</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/sum_of_subsequence_widths_891">891. Sum of Subsequence Widths</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/construct_binary_tree_from_preorder_and_inorder_traversal_105">105. Construct Binary Tree from Preorder and Inorder Traversal</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/construct_binary_tree_from_inorder_and_postorder_traversal_106">106. Construct Binary Tree from Inorder and Postorder Traversal</a></li>
 </ul>
 
