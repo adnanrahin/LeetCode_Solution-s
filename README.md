@@ -378,5 +378,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/construct_binary_tree_from_inorder_and_postorder_traversal_106">106. Construct Binary Tree from Inorder and Postorder Traversal</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/populating_next_righ_pointers_in_each_node_116">116. Populating Next Right Pointers in Each Node</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/word_break_II_140">140. Word Break II</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/longest_consecutive_sequence_128">128. Longest Consecutive Sequence</a></li>
 </ul>
 

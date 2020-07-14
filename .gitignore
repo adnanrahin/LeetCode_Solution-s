@@ -16,3 +16,4 @@ obj/
 *.jpg
 *.png
 *.log.*
+/src/word_ladder_II_126
