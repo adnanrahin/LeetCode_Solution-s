@@ -381,5 +381,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/longest_consecutive_sequence_128">128. Longest Consecutive Sequence</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/shortest_bridge_934">934. Shortest Bridge</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/populating_next_right_pointers_in_each_node_II_117">117. Populating Next Right Pointers in Each Node II</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/linked_list_cycle_II_142">142. Linked List Cycle II</a></li>
 </ul>
 
