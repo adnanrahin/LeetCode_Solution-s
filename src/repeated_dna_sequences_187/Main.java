@@ -14,7 +14,7 @@ public class Main {
         Set<String> set = new HashSet<>();
         StringBuilder sb = new StringBuilder();
 
-        if (s.length() < 10) return new ArrayList<>();
+        if(s.length() < 10) return new ArrayList<>();
 
         for (int i = 0; i < 10; i++) {
             sb.append(s.charAt(i));
@@ -25,7 +25,6 @@ public class Main {
         for (int i = 10; i < s.length(); i++) {
             sb.deleteCharAt(0);
             sb.append(s.charAt(i));
-
             if (!set.add(sb.toString())) {
                 solution.add(sb.toString());
             }
