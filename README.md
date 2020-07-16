@@ -383,5 +383,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/populating_next_right_pointers_in_each_node_II_117">117. Populating Next Right Pointers in Each Node II</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/linked_list_cycle_II_142">142. Linked List Cycle II</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/repeated_dna_sequences_187">187. Repeated DNA Sequences</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/array_of_double_pair_954">954. Array of Doubled Pairs</a></li>
 </ul>
 
