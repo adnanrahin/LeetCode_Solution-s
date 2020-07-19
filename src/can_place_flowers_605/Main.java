@@ -1,7 +1,5 @@
 package can_place_flowers_605;
 
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -31,7 +29,7 @@ public class Main {
                     n--;
                 }
             }
-            System.out.println(Arrays.toString(flowerbed));
+
             if (n == 0) return true;
         }
 
