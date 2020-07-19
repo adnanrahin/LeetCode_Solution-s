@@ -387,5 +387,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/best_time_to_buy_and_sell_stock_with_cooldown_309">309. Best Time to Buy and Sell Stock with Cooldown</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/odd_even_linked_list_328">328. Odd Even Linked List</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/can_place_flowers_605">605. Can Place Flowers</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/number_of_nodes_in_the_sub_tree_with_the_same_label_1519">1519. Number of Nodes in the Sub-Tree With the Same Label/a></li>
 </ul>
 
