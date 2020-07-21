@@ -389,5 +389,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/can_place_flowers_605">605. Can Place Flowers</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/number_of_nodes_in_the_sub_tree_with_the_same_label_1519">1519. Number of Nodes in the Sub-Tree With the Same Label</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/asteroid_collision_735">735. Asteroid Collision</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/h_index_274">274. H-Index</a></li>
 </ul>
 
