@@ -393,5 +393,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/h_index_II_275">275. H-Index II</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/range_sum_of_sorted_subarray_sums_1508">1508. Range Sum of Sorted Subarray Sums</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/check_if_n_and_its_double_exist_1346">1346. Check If N and Its Double Exist</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/shuffle_the_array_1470">1470. Shuffle the Array</a></li>
 </ul>
 
