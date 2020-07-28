@@ -1,8 +1,5 @@
 package first_missing_positive_41;
 
-import java.util.HashSet;
-import java.util.Set;
-
 public class Main {
 
 	public static void main(String args[]) {
@@ -16,26 +13,27 @@ public class Main {
 	}
 
 	public static int firstMissingPositive(int[] nums) {
-		if (nums.length == 0)
-			return 1;
-		Set<Integer> set = new HashSet<Integer>();
 
-		int max = nums[0];
+		boolean oneSeen = false;
 
 		for (int i = 0; i < nums.length; i++) {
-			if (nums[i] >= 0) {
-				set.add(nums[i]);
-				max = Math.max(max, nums[i]);
+			if (nums[i] == 1) oneSeen = true;
+
+			if (nums[i] <= 0 || nums[i] > nums.length) {
+				nums[i] = 1;
 			}
 		}
 
-		System.out.println(set);
+		if (!oneSeen) return 1;
 
-		for (int i = 1; i <= max; i++) {
-			if (!set.contains(i))
-				return i;
+		for (int i = 0; i < nums.length; i++) {
+			int index = Math.abs(nums[i]) - 1;
+			if (nums[index] > 0) nums[index] *= -1;
 		}
-		return max > 0 ? max + 1 : 1;
 
+		for (int i = 0; i < nums.length; i++)
+			if (nums[i] > 0) return i + 1;
+
+		return nums.length + 1;
 	}
 }
