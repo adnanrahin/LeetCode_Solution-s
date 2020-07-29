@@ -1,60 +1,72 @@
 package rotate_list_61;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
+    public static void main(String[] args) {
 
-	public static void main(String args[]) {
+    }
 
-	}
 
-	public static class ListNode {
-		int val;
-		ListNode next;
+    public class ListNode {
+        int val;
+        ListNode next;
 
-		public ListNode(int data) {
-			this.val = data;
-			next = null;
-		}
-	}
+        ListNode() {
+        }
 
-	public static ListNode rotateRight(ListNode head, int k) {
+        ListNode(int val) {
+            this.val = val;
+        }
 
-		if (head == null)
-			return null;
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+    }
 
-		ListNode newNode = head;
 
-		List<Integer> list = new ArrayList<Integer>();
+    public ListNode rotateRight(ListNode head, int k) {
 
-		while (newNode != null) {
-			list.add(newNode.val);
-			newNode = newNode.next;
-		}
+        if (head == null || k == 0 || head.next == null) return head;
 
-		for (int i = 0; i < k % list.size(); i++) {
+        int listNodeLen = getListNodeLength(head);
 
-			int temp = list.get(list.size() - 1);
+        k %= listNodeLen;
 
-			for (int j = list.size() - 1; j > 0; j--) {
-				list.set(j, list.get(j - 1));
-			}
-			list.set(0, temp);
+        ListNode restOfTheNodes = new ListNode();
 
-		}
+        ListNode temp = head;
 
-		newNode = head;
+        int len = listNodeLen - k;
 
-		for (int i = 0; i < list.size(); i++) {
+        while (len >= 0) {
+            if (len == 0) {
+                restOfTheNodes.next = temp.next;
+                temp.next = null;
+            }
+            temp = temp.next;
+            len--;
+        }
 
-			newNode = new ListNode(list.get(i));
-			newNode = newNode.next;
+        ListNode sol = restOfTheNodes.next;
 
-		}
+        while (restOfTheNodes.next != null) {
+            restOfTheNodes = restOfTheNodes.next;
+        }
+        restOfTheNodes.next = head;
 
-		return head.next;
+        return sol;
+    }
 
-	}
+    public int getListNodeLength(ListNode head) {
+
+        int len = 0;
+        ListNode temp = head;
+        while (temp != null) {
+            len++;
+            temp = temp.next;
+        }
+        return len;
+    }
 
 }
