@@ -35,18 +35,26 @@ public class Main {
     }
 
     public static boolean search(int[] nums, int target) {
-        return search(nums, target, 0, nums.length - 1);
-    }
 
-    public static boolean search(int[] nums, int target, int left, int right) {
+        int left = 0;
+        int right = nums.length - 1;
 
-        if (left >= right) return false;
+        while (left <= right) {
 
-        int mid = left + (right - left) / 2;
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target) return true;
 
-        if (nums[mid] == target) return true;
+            else if (nums[left] < nums[mid]) {
+                if (nums[left] <= target && target < nums[mid]) right = mid - 1;
+                else left = mid + 1;
+            } else if (nums[left] > nums[mid]) {
+                if (nums[mid] < target && target <= nums[right]) left = mid + 1;
+                else right = mid - 1;
+            } else left++;
 
-        return search(nums, target, left, mid - 1) || search(nums, target, mid + 1, right);
+        }
+
+        return false;
     }
 
 }
