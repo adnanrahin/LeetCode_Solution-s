@@ -1,8 +1,7 @@
 package reorder_list_143;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.Deque;
+import java.util.LinkedList;
 
 public class Main {
 
@@ -21,11 +20,11 @@ public class Main {
 
     public void reorderList(ListNode head) {
 
-        if(head == null || head.next == null || head.next.next == null)return;
+        if (head == null || head.next == null || head.next.next == null) return;
 
         ListNode outer = head;
 
-        while(outer.next!=null && outer.next.next!=null){
+        while (outer.next != null && outer.next.next != null) {
             ListNode temp = outer;
 
             ListNode cur = outer.next;
@@ -37,6 +36,33 @@ public class Main {
             temp.next = null;
             outer.next.next = cur;
             outer = outer.next.next;
+        }
+    }
+
+    class Solution {
+        public void reorderList(ListNode head) {
+            if (head == null || head.next == null) return;
+
+            ListNode temp = head;
+
+            Deque<ListNode> deque = new LinkedList<>();
+
+            while (temp != null) {
+                ListNode prev = temp;
+                deque.add(temp);
+                temp = temp.next;
+                prev.next = null;
+            }
+
+            while (!deque.isEmpty()) {
+                head.next = deque.removeFirst();
+                head = head.next;
+                if (!deque.isEmpty()) {
+                    head.next = deque.removeLast();
+                    head = head.next;
+                }
+            }
+
         }
     }
 
