@@ -1,53 +1,52 @@
 package insertion_sort_list_147;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Main {
 
-	public static void main(String args[]) {
+    public static void main(String args[]) {
 
-	}
+    }
 
-	public class ListNode {
-		int val;
-		ListNode next;
+    public class ListNode {
+        int val;
+        ListNode next;
 
-		ListNode(int x) {
-			val = x;
-		}
-	}
+        ListNode() {
+        }
 
-	public ListNode insertionSortList(ListNode head) {
+        ListNode(int val) {
+            this.val = val;
+        }
 
-		ListNode newNode = head;
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+    }
 
-		List<Integer> list = new ArrayList<Integer>();
+    public ListNode insertionSortList(ListNode head) {
 
-		while (newNode != null) {
-			list.add(newNode.val);
-			newNode = newNode.next;
-		}
+        if (head == null || head.next == null) return head;
 
-		for (int i = 1; i < list.size(); i++) {
-			int j = i;
+        ListNode p, solution = new ListNode(0), temp = head;
 
-			while (j > 0 && list.get(j - 1) > list.get(j)) {
-				int n = list.get(j - 1);
-				list.set(j - 1, list.get(j));
-				list.set(j, n);
-				j--;
-			}
+        solution.next = head;
 
-		}
+        while (temp.next != null) {
 
-		newNode = head;
+            if (temp.val > temp.next.val) {
+                p = solution;
+                while (p.next != null && p.next.val < temp.next.val) {
+                    p = p.next;
+                }
+                ListNode nextNode = temp.next.next;
+                temp.next.next = p.next;
+                p.next = temp.next;
+                temp.next = nextNode;
 
-		for (int i = 0; i < list.size(); i++) {
-			head.val = list.get(i);
-			head = head.next;
-		}
+            } else temp = temp.next;
 
-		return newNode;
-	}
+        }
+
+        return solution.next;
+    }
 }
