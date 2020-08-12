@@ -1,8 +1,5 @@
 package remove_linked_list_elements_203;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Main {
 
     public static void main(String args[]) {
@@ -15,41 +12,65 @@ public class Main {
         node.next.next.next.next.next = new ListNode(5);
         node.next.next.next.next.next.next = new ListNode(6);
 
-        removeElements(node, 6);
+        new Solution().removeElements(node, 6);
 
     }
+
 
     public static class ListNode {
         int val;
         ListNode next;
 
-        ListNode(int x) {
-            val = x;
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
         }
     }
 
-    public static ListNode removeElements(ListNode head, int val) {
+    // Time Complexity O(n) and Space Complexity O(n)
+    public ListNode removeElements(ListNode head, int val) {
+        if (head == null) return null;
 
-        ListNode temp = head;
-        List<Integer> list = new ArrayList<>();
+        ListNode solution = new ListNode();
+        ListNode solutionHead = solution;
 
-        while (temp != null) {
-            if (temp.val != val)
-                list.add(temp.val);
-
-            temp = temp.next;
+        while (head != null) {
+            if (head.val != val) {
+                solution.next = new ListNode(head.val, solution.next);
+                solution = solution.next;
+            }
+            head = head.next;
         }
+        return solutionHead.next;
+    }
 
-        temp = new ListNode(0);
-        head = temp;
 
-        for (int i = 0; i < list.size(); i++) {
-            temp.next = new ListNode(list.get(i));
+    public static class Solution {
 
-            temp = temp.next;
+        // Time Complexity O(n) and Space Complexity O(1)
+
+        public ListNode removeElements(ListNode head, int val) {
+            if (head == null) return null;
+
+            ListNode solution = new ListNode();
+            ListNode solutionHead = solution;
+
+            while (head != null) {
+                if (head.val != val) {
+                    solution.next = new ListNode(head.val, solution.next);
+                    solution = solution.next;
+                }
+                head = head.next;
+            }
+            return solutionHead.next;
         }
-
-        return head.next;
     }
 
 }
