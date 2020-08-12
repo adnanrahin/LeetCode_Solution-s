@@ -57,19 +57,22 @@ public class Main {
         // Time Complexity O(n) and Space Complexity O(1)
 
         public ListNode removeElements(ListNode head, int val) {
-            if (head == null) return null;
 
-            ListNode solution = new ListNode();
-            ListNode solutionHead = solution;
-
-            while (head != null) {
-                if (head.val != val) {
-                    solution.next = new ListNode(head.val, solution.next);
-                    solution = solution.next;
-                }
+            while (head != null && head.val == val) {
                 head = head.next;
             }
-            return solutionHead.next;
+
+            ListNode prev = head;
+            ListNode temp = head;
+
+            while (temp != null) {
+                if (temp.val == val) {
+                    prev.next = temp.next;
+                } else prev = temp;
+                temp = temp.next;
+            }
+
+            return head;
         }
     }
 
