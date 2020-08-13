@@ -28,4 +28,39 @@ public class Main {
         return pq.peek();
     }
 
+    public class Solution {
+        int findKthLargest(int[] arr, int k) {
+
+            int low = 0;
+            int high = arr.length - 1;
+
+            while (low < high) {
+                int partition = partition(arr, low, high);
+                if (partition == arr.length - k) return arr[partition];
+                else if (partition > arr.length - k) high = partition - 1;
+                else low = partition + 1;
+            }
+
+            return arr[low];
+        }
+
+        public int partition(int[] arr, int low, int high) {
+
+            int pivot = arr[high];
+            int i = low;
+            for (int j = low; j < high; j++) {
+                if (arr[j] <= pivot) {
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                    i++;
+                }
+            }
+            int temp = arr[i];
+            arr[i] = arr[high];
+            arr[high] = temp;
+            return i;
+        }
+    }
+
 }
