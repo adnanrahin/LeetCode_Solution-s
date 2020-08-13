@@ -5,39 +5,34 @@ import java.util.List;
 
 public class Main {
 
-	public static void main(String args[]) {
+    public static void main(String args[]) {
 
-		System.out.println(combinationSum3(4, 24));
+        System.out.println(combinationSum3(4, 24));
 
-	}
+    }
 
-	static int nums[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+    static List<List<Integer>> solution;
 
-	public static List<List<Integer>> combinationSum3(int k, int n) {
-		List<List<Integer>> ans = new ArrayList<>();
-		backtrack(n, new ArrayList<Integer>(), ans, k, 0);
-		return ans;
-	}
+    public static List<List<Integer>> combinationSum3(int k, int n) {
+        solution = new ArrayList<>();
+        backtrack(1, k, n, new ArrayList<>());
+        return solution;
+    }
 
-	public static void backtrack(int n, List<Integer> list, List<List<Integer>> ans, int k, int start) {
+    public static void backtrack(int start, int k, int sum, List<Integer> list) {
 
-		if (list.size() == k && n != 0)
-			return;
+        if (sum == 0 && list.size() == k) {
+            solution.add(new ArrayList<>(list));
+            return;
+        }
 
-		if (n == 0 && list.size() == k) {
-			ans.add(new ArrayList<Integer>(list));
-			return;
-		}
+        if (sum < 0 || list.size() > k) return;
 
-		for (int j = start; j < nums.length; j++) {
-
-			list.add(nums[j]);
-			backtrack(n - nums[j], list, ans, k, j + 1);
-			list.remove(list.size() - 1);
-
-		}
-
-		return;
-	}
+        for (int i = start; i <= 9; i++) {
+            list.add(i);
+            backtrack(i + 1, k, sum - i, list);
+            list.remove(list.size() - 1);
+        }
+    }
 
 }
