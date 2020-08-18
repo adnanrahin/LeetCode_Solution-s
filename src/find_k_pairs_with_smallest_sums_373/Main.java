@@ -1,59 +1,38 @@
 package find_k_pairs_with_smallest_sums_373;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 import java.util.PriorityQueue;
 
 public class Main {
 
-	public static void main(String args[]) {
+    public static void main(String args[]) {
 
-		System.out.println(kSmallestPairs(new int[] { 1, 2 }, new int[] { 3 }, 3));
+        System.out.println(kSmallestPairs(new int[]{1, 2}, new int[]{3}, 3));
 
-	}
+    }
 
-	public static List<int[]> kSmallestPairs(int[] a, int[] b, int k) {
+    public static List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
 
-		Map<pair, Integer> map = new HashMap<>();
+        List<List<Integer>> solution = new ArrayList<>();
 
-		List<int[]> list = new ArrayList<>();
+        k = Math.min(nums1.length * nums2.length, k);
 
-		for (int i = 0; i < a.length; i++) {
-			for (int j = 0; j < b.length; j++) {
-				if (!map.containsKey(new pair(a[i], b[j]))) {
-					map.put(new pair(a[i], b[j]), a[i] + b[j]);
-				}
-			}
-		}
-		PriorityQueue<Map.Entry<pair, Integer>> pQueue = new PriorityQueue<>((c, d) -> (c.getValue() - d.getValue()));
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> (a[0] + a[1]) - (b[0] + b[1]));
 
-		for (Map.Entry<pair, Integer> itr : map.entrySet()) {
+        for (int i = 0; i < Math.min(nums1.length, k); i++)
+            pq.add(new int[]{nums1[i], nums2[0], 0});
 
-			pQueue.add(itr);
+        for (int i = 0; i < k; i++) {
+            int arr[] = pq.poll();
+            solution.add(Arrays.asList(arr[0], arr[1]));
+            if (arr[2] < nums2.length - 1) {
+                pq.add(new int[]{arr[0], nums2[++arr[2]], arr[2]});
+            }
+        }
 
-		}
+        return solution;
 
-		try {
-			while (list.size() < k) {
-				Map.Entry<pair, Integer> itr = pQueue.poll();
-
-				list.add(new int[] { itr.getKey().a, itr.getKey().b });
-			}
-		} catch (Exception e) {
-
-		}
-
-		return list;
-	}
-
-	public static class pair {
-		int a, b;
-
-		public pair(int a, int b) {
-			this.a = a;
-			this.b = b;
-		}
-	}
+    }
 }
