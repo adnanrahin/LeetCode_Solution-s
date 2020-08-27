@@ -1,79 +1,50 @@
 package find_bottom_left_tree_value_513;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.xml.transform.Templates;
-
 public class Main {
 
-	public static void main(String args[]) {
+    public static void main(String args[]) {
 
-	}
+    }
 
-	public class TreeNode {
-		int val;
-		TreeNode left;
-		TreeNode right;
+    public static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
 
-		TreeNode(int x) {
-			val = x;
-		}
-	}
+        TreeNode() {
+        }
 
-	// Test Case 1: [1,2,3,4,null,5,6,null,null,7]
-	// Test Case 2: [0, null, -1]
+        TreeNode(int val) {
+            this.val = val;
+        }
 
-	List<ValueData> list;
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
 
-	public int findBottomLeftValue(TreeNode root) {
+    Integer val = null;
 
-		if (root == null)
-			return 0;
+    public int findBottomLeftValue(TreeNode root) {
+        int getLevel = getHeight(root);
+        findBottomLeft(root, getLevel, 0);
+        return val;
+    }
 
-		if (root != null && (root.left == null && root.right == null))
-			return root.val;
+    public int getHeight(TreeNode root) {
+        if (root == null) return 0;
+        return Math.max(getHeight(root.left), getHeight(root.right)) + 1;
+    }
 
-		list = new ArrayList<ValueData>();
-
-		height(root, true, 0);
-
-		int heighttemp = 0;
-		int datatemp = 0;
-
-		for (int i = 0; i < list.size(); i++) {
-			if (heighttemp < list.get(i).height) {
-				heighttemp = list.get(i).height;
-				datatemp = list.get(i).data;
-			}
-		}
-
-		return datatemp;
-
-	}
-
-	public void height(TreeNode root, boolean temp, int level) {
-		if (root == null)
-			return;
-
-		list.add(new ValueData(root.val, level));
-
-		height(root.left, true, level + 1);
-		height(root.right, false, level + 1);
-
-		return;
-	}
-
-	public static class ValueData {
-		int data;
-		int height;
-
-		public ValueData(int data, int height) {
-
-			this.data = data;
-			this.height = height;
-
-		}
-	}
+    public void findBottomLeft(TreeNode root, int level, int curLevel) {
+        if (root == null) return;
+        if (curLevel == level - 1 && val == null) {
+            val = root.val;
+        }
+        findBottomLeft(root.left, level, curLevel + 1);
+        findBottomLeft(root.right, level, curLevel + 1);
+    }
 
 }
