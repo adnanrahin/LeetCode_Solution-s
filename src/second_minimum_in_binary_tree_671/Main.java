@@ -1,9 +1,6 @@
 package second_minimum_in_binary_tree_671;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.PriorityQueue;
 
 public class Main {
 
@@ -21,34 +18,21 @@ public class Main {
 		}
 	}
 
-	public static Set<Integer> list;
-
 	public int findSecondMinimumValue(TreeNode root) {
-
-		list = new HashSet<Integer>();
-		helper(root);
-		if (list.size() == 1)
-			return -1;
-
-		List<Integer> ans = new ArrayList<Integer>();
-
-		for (Integer itr : list)
-			ans.add(itr);
-
-		return ans.get(1);
+		PriorityQueue<Integer> pq = secondMin(root, new PriorityQueue<>());
+		if(pq.size() == 1) return -1;
+		pq.poll();
+		return pq.poll();
 	}
 
-	public static void helper(TreeNode root) {
-
-		if (root == null)
-			return;
-
-		helper(root.left);
-		list.add(root.val);
-		helper(root.right);
-
-		return;
-
+	public PriorityQueue<Integer> secondMin(TreeNode root, PriorityQueue<Integer> pq) {
+		if (root == null) return pq;
+		if (pq.isEmpty()) pq.add(root.val);
+		if (!pq.isEmpty()) {
+			if (pq.peek() != root.val) pq.add(root.val);
+		}
+		secondMin(root.left, pq);
+		secondMin(root.right, pq);
+		return pq;
 	}
-
 }
