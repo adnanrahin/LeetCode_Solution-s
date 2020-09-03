@@ -5,47 +5,82 @@ import java.util.List;
 
 public class Main {
 
-	public static void main(String args[]) {
+    public static void main(String args[]) {
 
-	}
+    }
 
-	public class TreeNode {
-		int val;
-		TreeNode left;
-		TreeNode right;
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
 
-		TreeNode(int x) {
-			val = x;
-		}
-	}
+        TreeNode() {
+        }
 
-	public static int minDiffInBST(TreeNode root) {
-		if (root == null)
-			return 0;
+        TreeNode(int val) {
+            this.val = val;
+        }
 
-		List<Integer> list = new ArrayList<Integer>();
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
 
-		list = helper(root, list);
+    public class BruteForce {
+        public int minDiffInBST(TreeNode root) {
+            if (root == null)
+                return 0;
 
-		int mindiff = list.get(list.size() - 1);
+            List<Integer> list = new ArrayList<Integer>();
 
-		for (int i = 0; i < list.size() - 1; i++) {
-			mindiff = Math.min(mindiff, list.get(i + 1) - list.get(i));
-		}
+            list = helper(root, list);
 
-		return mindiff;
-	}
+            int mindiff = list.get(list.size() - 1);
 
-	public static List<Integer> helper(TreeNode root, List<Integer> list) {
+            for (int i = 0; i < list.size() - 1; i++) {
+                mindiff = Math.min(mindiff, list.get(i + 1) - list.get(i));
+            }
 
-		if (root == null)
-			return list;
+            return mindiff;
+        }
 
-		helper(root.left, list);
-		list.add(root.val);
-		helper(root.right, list);
+        public List<Integer> helper(TreeNode root, List<Integer> list) {
 
-		return list;
-	}
+            if (root == null)
+                return list;
+
+            helper(root.left, list);
+            list.add(root.val);
+            helper(root.right, list);
+
+            return list;
+        }
+    }
+
+    class OptimizedSolution {
+
+        int min;
+
+        public int minDiffInBST(TreeNode root) {
+            min = Integer.MAX_VALUE;
+            inOrder(root);
+            return min;
+        }
+
+        Integer prev = null;
+
+        public void inOrder(TreeNode root) {
+            if (root == null) return;
+            inOrder(root.left);
+            if (prev != null) {
+                min = Math.min(min, Math.abs(prev - root.val));
+            }
+            prev = root.val;
+            inOrder(root.right);
+        }
+
+    }
 
 }
