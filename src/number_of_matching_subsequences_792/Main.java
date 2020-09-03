@@ -1,46 +1,41 @@
 package number_of_matching_subsequences_792;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 public class Main {
 
-	public static void main(String args[]) {
-		System.out.println(numMatchingSubseq("abcde", new String[] { "a", "bb", "acd", "ace" }));
-		System.out
-				.println(numMatchingSubseq("dashjpjauf", new String[] { "ahjpjau", "ja", "ahbwzgqnuk", "tnmlanowax" }));
-	}
+    public static void main(String args[]) {
+        System.out.println(numMatchingSubseq("abcde", new String[]{"a", "bb", "acd", "ace"}));
+        System.out.println(numMatchingSubseq("dashjpjauf", new String[]{"ahjpjau", "ja", "ahbwzgqnuk", "tnmlanowax"}));
+    }
 
-	public static int numMatchingSubseq(String S, String[] words) {
 
-		if (S.length() == 0 || words.length == 0)
-			return 0;
+    public static int numMatchingSubseq(String S, String[] words) {
+        int counter = 0;
 
-		int ans = 0;
+        Map<String, Boolean> subsequence = new HashMap<>();
 
-		char[] s = S.toCharArray();
+        for (String word : words) {
+            if (!subsequence.containsKey(word)) {
+                subsequence.put(word, isSubsequence(word, S));
+            }
+            counter += (subsequence.get(word)) ? 1 : 0;
+        }
 
-		for (String itr : words) {
-			char []b = itr.toCharArray();
-			if (isStringFound(s, b)) {
-				ans++;
-			}
-		}
-		return ans;
-	}
+        return counter;
+    }
 
-	private static boolean isStringFound(char[] a, char[] b) {
-		int j = 0;
-		for (int i = 0; i < a.length && j < b.length; i++)
-			if (a[i] == b[j]) {
-				j++;
-				if (j == b.length)
-					return true;
-			}
+    public static boolean isSubsequence(String pattern, String text) {
 
-		return false;
-	}
+        if (pattern.length() > text.length()) return false;
+        int i = 0;
+        int j = 0;
+        while (i < pattern.length() && j < text.length()) {
+            if (pattern.charAt(i) == text.charAt(j)) i++;
+            j++;
+        }
+        return i == pattern.length();
+    }
 
 }
