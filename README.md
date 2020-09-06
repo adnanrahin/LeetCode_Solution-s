@@ -397,5 +397,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/shuffle_string_1528">1528. Shuffle String</a></li>
     li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/robot_return_tor_origin_657">657. Robot Return to Origin</a></li>
     li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/decode_string_394">394. Decode String</a></li>
+    li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/replace_all_to_avoid_consecutive_repeating_characters_1576">1576. Replace All ?'s to Avoid Consecutive Repeating Characters</a></li>
 </ul>
 
