@@ -401,5 +401,7 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/matrix_diagonal_sum_1572">1572. Matrix Diagonal Sum</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/reverse_letter_only_917">917. Reverse Only Letters</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/valid_mountain_array_941">941. Valid Mountain Array</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/max_consecutive_ones_III_1004">1004. Max Consecutive Ones III</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/special_positions_in_a_binary_matrix_1582">1582. Special Positions in a Binary Matrix</a></li>
 </ul>
 
