@@ -1,79 +1,83 @@
 package word_search_II_212;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class Main {
 
-	public static void main(String args[]) {
+    public static void main(String args[]) {
 
-	}
+        char[][] board = {
+                {'o', 'a', 'a', 'n'},
+                {'e', 't', 'a', 'e'},
+                {'i', 'h', 'k', 'r'},
+                {'i', 'f', 'l', 'v'}
+        };
 
-	public static List<String> findWords(char[][] grid, String[] words) {
+        String[] words = {"oath", "pea", "eat", "rain"};
 
-		Set<String> set = new HashSet<String>();
-		for (String string : words) {
-			if (helper(grid, string))
-				set.add(string);
-		}
-		return new ArrayList<String>(set);
-	}
+        System.out.println(new HashTableSolution().findWords(board, words));
 
-	public static boolean helper(char[][] grid, String word) {
+    }
 
-		boolean[][] visited = new boolean[grid.length][grid[0].length];
 
-		for (int i = 0; i < grid.length; i++) {
-			for (int j = 0; j < grid[i].length; j++)
-				if (recur(grid, i, j, 0, word, visited))
-					return true;
-		}
-		return false;
-	}
+    public static class HashTableSolution {
 
-	public static boolean isValid(char[][] grid, int startrow, int startcol) {
+        public List<String> findWords(char[][] board, String[] words) {
 
-		int row = grid.length;
-		int col = grid[0].length;
+            int row = board.length;
+            int col = board[0].length;
 
-		if ((startcol >= 0 && startcol <= col - 1) && (startrow <= row - 1 && startrow >= 0)) {
-			return true;
-		}
+            List<String> solution = new ArrayList<>();
+            Map<Character, List<int[]>> startPosition = new HashMap<>();
 
-		return false;
-	}
+            for (String word : words) {
+                startPosition.put(word.charAt(0), new ArrayList<>());
+            }
 
-	public static boolean recur(char[][] grid, int row, int col, int level, String str, boolean[][] visited) {
+            for (int i = 0; i < row; i++) {
+                for (int j = 0; j < col; j++) {
+                    if (startPosition.containsKey(board[i][j])) startPosition.get(board[i][j]).add(new int[]{i, j});
+                }
+            }
 
-		if (level == str.length())
-			return true;
+            for (String word : words) {
+                List<int[]> getAllPosition = startPosition.get(word.charAt(0));
+                for (int[] pos : getAllPosition) {
+                    boolean[][] visited = new boolean[row][col];
+                    if (exist(board, pos[0], pos[1], word, 0, visited)) {
+                        solution.add(word);
+                        break;
+                    }
+                }
+            }
 
-		if (isValid(grid, row, col)) {
+            return solution;
+        }
 
-			if (!visited[row][col] && str.charAt(level) == grid[row][col]) {
-				visited[row][col] = true;
-				if (recur(grid, row + 1, col, level + 1, str, visited))
-					return true;
-				else if (recur(grid, row - 1, col, level + 1, str, visited))
-					return true;
-				else if (recur(grid, row, col + 1, level + 1, str, visited))
-					return true;
-				else if (recur(grid, row, col - 1, level + 1, str, visited))
-					return true;
+        public static int[][] directions = {{1, 0}, {-1, 0}, {0, -1}, {0, 1}};
 
-				visited[row][col] = false;
+        public static boolean isValid(char[][] board, int row, int col) {
+            return row >= 0 && row < board.length && col >= 0 && col < board[0].length;
+        }
 
-				return false;
+        public static boolean exist(char[][] board, int row, int col, String word, int len, boolean[][] visited) {
+            if (word.length() == len) return true;
+            if (!isValid(board, row, col) || board[row][col] == '-' || word.charAt(len) != board[row][col] || visited[row][col])
+                return false;
 
-			}
+            char temp = board[row][col];
+            visited[row][col] = true;
 
-			return false;
+            for (int[] dir : directions) {
+                if (exist(board, row + dir[0], col + dir[1], word, len + 1, visited))
+                    return true;
+            }
+            board[row][col] = temp;
+            visited[row][col] = false;
 
-		}
+            return false;
+        }
 
-		return false;
-	}
+    }
 
 }
