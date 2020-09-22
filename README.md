@@ -407,5 +407,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/prime_palindrome_866">866. Prime Palindrome</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/ugly_number_II_264">264. Ugly Number II</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/rotting_oranges_994">994. Rotting Oranges</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/search_in_rotated_sorted_array_33">33. Search in Rotated Sorted Array</a></li>
 </ul>
 
