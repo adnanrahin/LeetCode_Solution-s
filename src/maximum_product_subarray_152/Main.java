@@ -2,7 +2,7 @@ package maximum_product_subarray_152;
 
 public class Main {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         System.out.println(maxProduct(new int[]{2, 3, 1, 0, 9, 6}));
         System.out.println(maxProduct(new int[]{2, 3, -2, 4}));
