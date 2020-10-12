@@ -12,10 +12,9 @@ public class Main {
 
     public static int ladderLength(String beginWord, String endWord, List<String> wordList) {
 
-        Set<String> set = new HashSet<>();
         Map<String, List<String>> graph = new HashMap<>();
 
-        set.addAll(wordList);
+        Set<String> set = new HashSet<>(wordList);
 
         if (!set.contains(endWord)) return 0;
 
@@ -64,11 +63,11 @@ public class Main {
 
             List<String> edges = graph.get(key);
 
-            for (int i = 0; i < edges.size(); i++) {
-                if (!visited.contains(edges.get(i))) {
-                    visited.add(edges.get(i));
-                    distance.put(edges.get(i), distance.getOrDefault(key, 0) + 1);
-                    queue.add(edges.get(i));
+            for (String edge : edges) {
+                if (!visited.contains(edge)) {
+                    visited.add(edge);
+                    distance.put(edge, distance.getOrDefault(key, 0) + 1);
+                    queue.add(edge);
                 }
             }
         }
@@ -83,5 +82,44 @@ public class Main {
         if (b.length() - distance <= 1) return true;
         return false;
     }
+
+    public static class OptimizedBFS {
+        public static int ladderLength(String beginWord, String endWord, List<String> wordList) {
+
+            int ladderLength = 0;
+
+            Set<String> set = new HashSet<>(wordList);
+
+            if (!set.contains(endWord)) return 0;
+
+            Queue<String> queue = new LinkedList<>();
+
+            queue.add(beginWord);
+
+            while (!queue.isEmpty()) {
+                ladderLength++;
+                int ladder = queue.size();
+                while (ladder-- > 0) {
+                    char[] parent = Objects.requireNonNull(queue.poll()).toCharArray();
+                    for (int i = 0; i < parent.length; i++) {
+                        char temp = parent[i];
+                        for (char a = 'a'; a <= 'z'; a++) {
+                            if (a == temp) continue;
+                            parent[i] = a;
+                            String str = new String(parent);
+                            if (endWord.equals(str)) return ladderLength + 1;
+                            if (set.contains(str)) {
+                                queue.add(str);
+                                set.remove(str);
+                            }
+                        }
+                        parent[i] = temp;
+                    }
+                }
+            }
+            return 0;
+        }
+    }
+
 
 }
