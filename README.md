@@ -413,5 +413,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/k_th_largest_element_in_a_stream_703">703. Kth Largest Element in a Stream</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/word_ladder_II_126">126. Word Ladder II</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/min_cost_connect_all_points_1584">1584. Min Cost to Connect All Points</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/Repeated_substring_patter_459">459. Repeated Substring Pattern</a></li>
 </ul>
 
