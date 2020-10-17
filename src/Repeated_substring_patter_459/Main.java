@@ -4,9 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println(repeatedSubstringPattern("abcabcabcabcabcabcabcabcabcabc"));
+
     }
 
-    public boolean repeatedSubstringPattern(String s) {
+    public static boolean repeatedSubstringPattern(String s) {
 
         int[] phi = new int[s.length()];
         int i = 0, j = 1;
