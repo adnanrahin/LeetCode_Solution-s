@@ -9,7 +9,7 @@ public class Main {
     public int[] findRedundantDirectedConnection(int[][] edges) {
 
         int[] redundantConnection = new int[2];
-        
+
 
         return redundantConnection;
 
