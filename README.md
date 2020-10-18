@@ -414,5 +414,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/word_ladder_II_126">126. Word Ladder II</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/min_cost_connect_all_points_1584">1584. Min Cost to Connect All Points</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/Repeated_substring_patter_459">459. Repeated Substring Pattern</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/largest_substring_between_two_equal_characters_1624">1624. Largest Substring Between Two Equal Characters</a></li>
 </ul>
 
