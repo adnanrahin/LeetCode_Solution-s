@@ -416,5 +416,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/Repeated_substring_patter_459">459. Repeated Substring Pattern</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/largest_substring_between_two_equal_characters_1624">1624. Largest Substring Between Two Equal Characters</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/range_sum_query_Immutable_303">303. Range Sum Query - Immutable</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/pow_of_x_n_50">50. Pow(x, n)</a></li>
 </ul>
 
