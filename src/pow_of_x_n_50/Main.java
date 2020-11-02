@@ -3,7 +3,7 @@ package pow_of_x_n_50;
 public class Main {
 
     public static void main(String[] args) {
-
+        System.out.println(myPow(2, -2147483648));
     }
 
     public static double myPow(double x, int n) {
