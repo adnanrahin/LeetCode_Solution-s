@@ -6,6 +6,43 @@ public class Main {
 
     }
 
+    public static class KPMSolution {
+        public static int strStr(String text, String pattern) {
+
+            int[] pi = piTable(text, pattern);
+
+            for (int i = pattern.length(); i < pi.length; i++) {
+                if (pi[i] == pattern.length()) {
+                    return i - 2 * pattern.length();
+                }
+            }
+
+            return -1;
+        }
+
+        public static int[] piTable(String text, String pattern) {
+            String str = pattern + "#" + text;
+            int[] pi = new int[str.length()];
+
+            int i = 0, j = 1;
+
+            while (j < str.length()) {
+                if (str.charAt(i) == str.charAt(j)) {
+                    pi[j] = i + 1;
+                    i++;
+                    j++;
+                } else {
+                    if (i == 0) {
+                        pi[j] = 0;
+                        j++;
+                    } else i = pi[i - 1];
+                }
+            }
+
+            return pi;
+        }
+    }
+
     public static class RabinKarpSolution {
         public static int strStr(String text, String pattern) {
 
