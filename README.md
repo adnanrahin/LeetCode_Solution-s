@@ -417,5 +417,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/largest_substring_between_two_equal_characters_1624">1624. Largest Substring Between Two Equal Characters</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/range_sum_query_Immutable_303">303. Range Sum Query - Immutable</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/pow_of_x_n_50">50. Pow(x, n)</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/get_maximum_in_genereated_array_1646">1646. Get Maximum in Generated Array</a></li>
 </ul>
 
