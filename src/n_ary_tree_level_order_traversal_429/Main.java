@@ -1,62 +1,77 @@
 package n_ary_tree_level_order_traversal_429;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class Main {
 
-	public static void main(String args[]) {
+    public static void main(String args[]) {
 
-	}
+    }
 
-	class Node {
-		public int val;
-		public List<Node> children;
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
 
-		public Node() {
+        TreeNode() {
+        }
 
-		}
+        TreeNode(int val) {
+            this.val = val;
+        }
 
-		public Node(int _val, List<Node> _children) {
-			val = _val;
-			children = _children;
-		}
-	}
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
 
-	List<List<Integer>> answer = new ArrayList<List<Integer>>();
+    }
 
-	public List<List<Integer>> levelOrder(Node root) {
+    public class StackBasedSolution {
+        public List<List<Integer>> levelOrder(TreeNode root) {
+            if (root == null) return new ArrayList<>();
+            List<List<Integer>> levelOrder = new ArrayList<>();
+            Queue<TreeNode> queue = new LinkedList<>();
+            queue.add(root);
 
-		if (root == null)
-			return answer;
+            while (!queue.isEmpty()) {
+                int size = queue.size();
+                List<Integer> local = new ArrayList<>();
+                for (int i = 0; i <= size; i++) {
+                    TreeNode parent = queue.peek();
+                    queue.remove();
+                    local.add(parent.val);
+                    if (parent.left != null) queue.add(parent.left);
+                    if (parent.right != null) queue.add(parent.right);
+                }
+                levelOrder.add(new ArrayList<>(local));
+            }
+            return levelOrder;
+        }
+    }
 
-		Queue<Node> queue = new LinkedList<Node>();
-		queue.add(root);
+    public class HashTableBasedSolution {
+        public List<List<Integer>> levelOrder(TreeNode root) {
+            List<List<Integer>> levelOrder = new ArrayList<>();
+            Map<Integer, List<Integer>> map = new HashMap<>();
+            levelOrder(root, map, 0);
 
-		while (!queue.isEmpty()) {
+            for (Integer key : map.keySet()) {
+                levelOrder.add(map.get(key));
+            }
+            return levelOrder;
+        }
 
-			List<Integer> list = new ArrayList<Integer>();
-
-			int size = queue.size();
-
-			for (int i = 0; i < size; i++) {
-
-				Node node = queue.peek();
-				queue.remove();
-				list.add(node.val);
-
-				for (Node treechildNode : node.children)
-					queue.add(treechildNode);
-
-			}
-
-			answer.add(list);
-
-		}
-
-		return answer;
-	}
+        public void levelOrder(TreeNode root, Map<Integer, List<Integer>> map, int level) {
+            if (root == null) return;
+            if (!map.containsKey(level)) {
+                map.put(level, new ArrayList<>());
+            }
+            map.get(level).add(root.val);
+            levelOrder(root.left, map, level + 1);
+            levelOrder(root.right, map, level + 1);
+        }
+    }
 
 }
