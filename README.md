@@ -418,5 +418,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/range_sum_query_Immutable_303">303. Range Sum Query - Immutable</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/pow_of_x_n_50">50. Pow(x, n)</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/get_maximum_in_genereated_array_1646">1646. Get Maximum in Generated Array</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/max_number_of_k_sum_pairs_1679">1679. Max Number of K-Sum Pairs</a></li>
 </ul>
 
