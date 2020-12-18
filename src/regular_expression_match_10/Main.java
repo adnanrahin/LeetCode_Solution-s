@@ -13,6 +13,7 @@ public class Main {
 		System.out.println(isMatch("", ".*"));
 		System.out.println(isMatch("", ""));
 		System.out.println(isMatch("", "a"));
+		System.out.println(isMatch("abb", "ab*b"));
 	}
 
 	public static boolean isMatch(String text, String pattern) {
