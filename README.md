@@ -421,6 +421,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/max_number_of_k_sum_pairs_1679">1679. Max Number of K-Sum Pairs</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/goal_parese_interpretation_1678">1678. Goal Parser Interpretation</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/maximum_repeating_substring_1668">1668. Maximum Repeating Substring</a></li>
-
+<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/longest_string_chain_1048">1048. Longest String Chain</a></li>
 </ul>
 
