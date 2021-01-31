@@ -422,6 +422,7 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/goal_parese_interpretation_1678">1678. Goal Parser Interpretation</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/maximum_repeating_substring_1668">1668. Maximum Repeating Substring</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/longest_string_chain_1048">1048. Longest String Chain</a></li>
-<li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/find_the_highest_altitude_1732">1732. Find the Highest Altitude</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/find_the_highest_altitude_1732">1732. Find the Highest Altitude</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/maximum_number_of_balls_in_a_box_1742">1742. Maximum Number of Balls in a Box</a></li>
 </ul>
 
