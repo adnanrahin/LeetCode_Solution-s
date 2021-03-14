@@ -425,5 +425,8 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/find_the_highest_altitude_1732">1732. Find the Highest Altitude</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/maximum_number_of_balls_in_a_box_1742">1742. Maximum Number of Balls in a Box</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/merge_string_alternately_5685">1768. Merge Strings Alternately</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/find_center_of_start_graph_1791">1791. Find Center of Star Graph</a></li>
+
+
 </ul>
 
