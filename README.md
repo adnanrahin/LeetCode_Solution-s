@@ -427,5 +427,6 @@
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/merge_string_alternately_5685">1768. Merge Strings Alternately</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/find_center_of_start_graph_1791">1791. Find Center of Star Graph</a></li>
     <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/check_if_one_string_swap_can_make_strings_equal_1790">1790. Check if One String Swap Can Make Strings Equal</a></li>
+    <li><a href="https://github.com/Arx1971/LeetCode_Solution-s/tree/master/src/truncate_sentence_1816">1816. Truncate Sentence</a></li>
 </ul>
 
